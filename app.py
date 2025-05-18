@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load model and features
-model = joblib.load(r"C:\Users\kanim\Desktop\Bengaluru_House_price\house_price_model.pkl")
-model_features = joblib.load(r"C:\Users\kanim\Desktop\Bengaluru_House_price\model_features.pkl")
+model = joblib.load("house_price_model.pkl")
+model_features = joblib.load("model_features.pkl")
 
 st.title("🏠Bengaluru House Price Prediction")
 
